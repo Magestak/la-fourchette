@@ -1,0 +1,146 @@
+/* reset */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* fin reset */
+
+/* wrapper et génériques */
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	background-image: url("img/back-cover.jpg")
+}
+
+#wrapper {
+	margin: auto;
+	width: 990px;
+	min-height: 600px;
+	background-color: hsla(358,28%,95%,0.85);
+}
+h2, h3, h4 {
+	text-align: left;
+}
+h2 {
+	font-size: 22px;
+	padding-top: 10px;
+}
+h3 {
+	font-size: 20px;
+	padding: 10px 0;
+}
+h4 {
+	font-size: 16px;
+	padding: 15px 0;
+}
+p {
+	font-size: 14px;
+}
+.clear {
+	clear: both;
+}
+
+/* gabarit de la page */
+
+/* en tête */
+header {
+	height: 150px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+/* menu */
+ul, li {
+	list-style: none;
+}
+.main-menu {
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	height: 40px;
+	padding: 10px 0;
+}
+.main-menu li {
+	display: inline;
+	border-right: 2px solid #000;
+}
+.main-menu a {
+	padding: 10px;
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+}
+.main-menu a:hover {
+	color: #d86c0c;
+}
+/* fin menu */
+
+/* contenu */
+/* slogan */
+blockquote {
+	text-align: right;
+	font-style: italic;
+	font-size: 16px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+/* colonne de gauche */
+.colonne-gauche {
+	float: left;
+	width: 280px;
+	padding: 0 15px;
+}
+.colonne-gauche p {
+	font-size: 13px;
+}
+
+/* colonne de droite */
+.date {
+	font-size: 12px;
+}
+.colonne-droite {
+	float: left;
+	width: 640px;
+	padding: 0 15px;
+	margin-left: 30px;
+}
+
+/* images colonne droite */
+.img-column-right {
+	float: left;
+	width: 640px;
+	margin-top: 30px;
+	margin-left: 45px;
+	border-top: 1px solid #000;
+}
+.vignettes {
+	padding-top: 5px;
+	padding-right: 10px;
+	float: left;
+}
+.img-column-right a {
+	text-decoration: none;
+	color: #b32;
+}
+.img-column-right a:hover {
+	color: #7e8080;
+}
+.img-column-right p {
+	text-align: center;
+	padding-top: 5px;
+}
+
+/* footer */
+footer {
+	height: 40px;
+	margin-top: 30px;
+	padding: 20px 15px 0 0;
+	border-top: 1px solid #000;
+	text-align: right;
+}
+footer p {
+	font-size: 12px;
+}
+/* fin gabarit de la page */
